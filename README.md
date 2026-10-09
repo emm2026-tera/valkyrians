@@ -13,3 +13,9 @@ into real DOGZY ERC-20 tokens.
 
 Each voucher is single-use, expires at `deadline`, and the owner can pause, change rate/signer, or cap claims.
 Keep the signer key on the server only, and get the contract audited before mainnet use.
+
+### Tests de sécurité
+
+`npm install && npm test` exécute `test/DogzyBridge.security.js` : rejeu de voucher, vol de voucher par une autre adresse,
+mauvais signataire, montant altéré, voucher expiré, plafond, réserve insuffisante, fonctions réservées au owner, pause,
+rejeu entre contrats. Le dossier `contracts/mocks` ne sert qu'aux tests.
