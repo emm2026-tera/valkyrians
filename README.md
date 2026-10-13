@@ -26,3 +26,7 @@ rejeu entre contrats. Le dossier `contracts/mocks` ne sert qu'aux tests.
 2. Fuji (testnet) : `npx hardhat run scripts/deploy.js --network fuji`
 3. Mainnet C-Chain : uniquement après audit, avec `CONFIRM_MAINNET=yes npx hardhat run scripts/deploy.js --network avalanche`
 4. Alimenter la réserve : `token.approve(bridge, x)` puis `bridge.fund(x)`.
+
+## Credits
+
+Dogzy Family Universe — created by the contemporary artist and painter **Valkyrie** (Sania Labbe).

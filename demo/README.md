@@ -28,3 +28,6 @@ demo/
 ## Notes
 - Prices/balances are in-game (off-chain) tokens. Starting balance: 250. "Reset demo" restores it.
 - Nothing is deployed anywhere.
+
+## Credits
+Universe and characters by the artist **Valkyrie** (Sania Labbe). Replace sample visuals in `assets/` with her artwork.
