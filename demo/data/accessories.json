@@ -1,0 +1,15 @@
+{
+  "_note": "SAMPLE DATA - placeholder examples. 'slot' decides where the item is displayed on the character.",
+  "slots": ["hat", "glasses", "neck", "hand"],
+  "accessories": [
+    { "id": "chef-hat", "name": "Chef Hat", "slot": "hat", "emoji": "👨‍🍳", "image": "assets/accessories/chef-hat.png", "sample": true },
+    { "id": "crown", "name": "Golden Crown", "slot": "hat", "emoji": "👑", "image": "assets/accessories/crown.png", "sample": true },
+    { "id": "cap", "name": "Sport Cap", "slot": "hat", "emoji": "🧢", "image": "assets/accessories/cap.png", "sample": true },
+    { "id": "shades", "name": "Cool Shades", "slot": "glasses", "emoji": "🕶️", "image": "assets/accessories/shades.png", "sample": true },
+    { "id": "monocle", "name": "Monocle", "slot": "glasses", "emoji": "🧐", "image": "assets/accessories/monocle.png", "sample": true },
+    { "id": "bowtie", "name": "Bow Tie", "slot": "neck", "emoji": "🎀", "image": "assets/accessories/bowtie.png", "sample": true },
+    { "id": "medal", "name": "Hero Medal", "slot": "neck", "emoji": "🏅", "image": "assets/accessories/medal.png", "sample": true },
+    { "id": "bone", "name": "Lucky Bone", "slot": "hand", "emoji": "🦴", "image": "assets/accessories/bone.png", "sample": true },
+    { "id": "ball", "name": "Tennis Ball", "slot": "hand", "emoji": "🎾", "image": "assets/accessories/ball.png", "sample": true }
+  ]
+}

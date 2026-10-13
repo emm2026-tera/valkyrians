@@ -1,0 +1,13 @@
+{
+  "_note": "SAMPLE DATA - placeholder examples. Prices are in in-game DOGZY tokens (off-chain).",
+  "businesses": [
+    { "id": "bone-appetit", "name": "Bone Appetit", "emoji": "🍖", "image": "assets/businesses/restaurant.png", "description": "[SAMPLE] Family restaurant run by Chef Rex.", "sample": true,
+      "items": [ { "id": "stew", "name": "Hearty Stew", "emoji": "🍲", "price": 5 }, { "id": "burger", "name": "Bone Burger", "emoji": "🍔", "price": 8 } ] },
+    { "id": "tipsy-tail", "name": "The Tipsy Tail", "emoji": "🍸", "image": "assets/businesses/bar.png", "description": "[SAMPLE] Cozy bar where Bella serves drinks.", "sample": true,
+      "items": [ { "id": "mocktail", "name": "Fruity Mocktail", "emoji": "🍹", "price": 6 }, { "id": "milk", "name": "Warm Milk", "emoji": "🥛", "price": 3 } ] },
+    { "id": "pawsh-boutique", "name": "Pawsh Boutique", "emoji": "👗", "image": "assets/businesses/boutique.png", "description": "[SAMPLE] Fashion for the stylish dog.", "sample": true,
+      "items": [ { "id": "ribbon", "name": "Silk Ribbon", "emoji": "🎀", "price": 10 }, { "id": "scarf", "name": "Cozy Scarf", "emoji": "🧣", "price": 12 } ] },
+    { "id": "fetch-market", "name": "Fetch Market", "emoji": "🛒", "image": "assets/businesses/market.png", "description": "[SAMPLE] Toys, treats and everyday goods.", "sample": true,
+      "items": [ { "id": "ball", "name": "Rubber Ball", "emoji": "🎾", "price": 4 }, { "id": "treat", "name": "Golden Treat", "emoji": "🦴", "price": 15 } ] }
+  ]
+}

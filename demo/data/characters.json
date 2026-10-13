@@ -1,0 +1,11 @@
+{
+  "_note": "SAMPLE DATA - placeholder examples to be replaced with final game content.",
+  "characters": [
+    { "id": "chef-rex", "name": "Chef Rex", "job": "Chef", "emoji": "👨‍🍳", "image": "assets/characters/chef.png", "rarity": "Common", "description": "[SAMPLE] Runs the Bone Appetit kitchen and loves a good stew.", "sample": true },
+    { "id": "barmaid-bella", "name": "Bella", "job": "Barmaid", "emoji": "🍹", "image": "assets/characters/barmaid.png", "rarity": "Rare", "description": "[SAMPLE] Knows every secret in town and serves the best drinks.", "sample": true },
+    { "id": "mailman-max", "name": "Max", "job": "Mailman", "emoji": "📮", "image": "assets/characters/mailman.png", "rarity": "Common", "description": "[SAMPLE] Delivers parcels across the city at record speed.", "sample": true },
+    { "id": "doc-daisy", "name": "Dr. Daisy", "job": "Vet", "emoji": "🩺", "image": "assets/characters/vet.png", "rarity": "Epic", "description": "[SAMPLE] The friendliest vet in Dogzy City.", "sample": true },
+    { "id": "builder-buster", "name": "Buster", "job": "Builder", "emoji": "🛠️", "image": "assets/characters/builder.png", "rarity": "Common", "description": "[SAMPLE] Builds and repairs everything, one tail-wag at a time.", "sample": true },
+    { "id": "captain-coco", "name": "Captain Coco", "job": "Firefighter", "emoji": "🚒", "image": "assets/characters/firefighter.png", "rarity": "Legendary", "description": "[SAMPLE] Fearless hero of the city fire brigade.", "sample": true }
+  ]
+}
