@@ -19,3 +19,10 @@ Keep the signer key on the server only, and get the contract audited before main
 `npm install && npm test` exécute `test/DogzyBridge.security.js` : rejeu de voucher, vol de voucher par une autre adresse,
 mauvais signataire, montant altéré, voucher expiré, plafond, réserve insuffisante, fonctions réservées au owner, pause,
 rejeu entre contrats. Le dossier `contracts/mocks` ne sert qu'aux tests.
+
+### Déploiement Avalanche
+
+1. `cp .env.example .env` et remplir (ne jamais committer `.env`).
+2. Fuji (testnet) : `npx hardhat run scripts/deploy.js --network fuji`
+3. Mainnet C-Chain : uniquement après audit, avec `CONFIRM_MAINNET=yes npx hardhat run scripts/deploy.js --network avalanche`
+4. Alimenter la réserve : `token.approve(bridge, x)` puis `bridge.fund(x)`.

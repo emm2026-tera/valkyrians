@@ -14,7 +14,7 @@ describe("DogzyBridge security", () => {
 
   beforeEach(async () => {
     [owner, signer, player, attacker] = await ethers.getSigners();
-    token = await (await ethers.getContractFactory("MockDogzy")).deploy();
+    token = await (await ethers.getContractFactory("DogzyToken")).deploy(owner.address, 1_000_000n * 10n ** 18n);
     bridge = await (await ethers.getContractFactory("DogzyBridge")).deploy(
       await token.getAddress(), signer.address, RATE, owner.address);
     await token.approve(await bridge.getAddress(), 10_000n * 10n ** 18n);
